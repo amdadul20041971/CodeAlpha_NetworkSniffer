@@ -1,25 +1,36 @@
-# CodeAlpha - Basic Network Sniffer
+# CodeAlpha - Network Sniffer
 
-## Description
-A Python-based network sniffer using Scapy to capture and analyze network packets.
+## Project Description
+This is a Python-based network sniffer using Scapy. It captures live packets and shows IP, protocol, and payload information. You can also filter packets by a specific IP address.
 
-## Features
-- Capture real-time network traffic
-- Detect TCP, UDP, ICMP protocols
-- Display source and destination IP
-- Show payload data
+---
 
-## Requirements
-- Python 3
-- Scapy
+## How to Use
 
-## Installation
-pip install scapy
-
-## Run
+### 1. Run the program
 sudo python3 sniffer.py
 
-## Learning Outcome
-- Understanding packet structure
-- Network protocols basics
-- Real-time traffic analysis
+### 2. Enter IP to filter
+When asked, type the IP address you want to track:
+
+Example:
+192.168.0.108
+
+---
+
+## Features
+- Capture live network packets
+- Filter by IP address
+- Show Source & Destination IP
+- Show Protocol (TCP/UDP/ICMP)
+- Show Payload data
+
+---
+
+## Install Requirement
+pip install scapy
+
+---
+
+## Run Command
+sudo python3 sniffer.py
